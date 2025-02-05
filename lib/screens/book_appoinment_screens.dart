@@ -29,7 +29,7 @@ class _BookAppointmentScreenState extends State<BookAppointmentScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: const Color.fromARGB(255, 80, 193, 250),
         title: Text('Book Appointment'),
       ),
       body: Padding(
